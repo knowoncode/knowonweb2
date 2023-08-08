@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin:0px;
+            padding: 0px;
+            font-family: 'PT Sans', sans-serif;
+        }
+        body{
+            background-image: url(images/front.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+        }
+        header{   
+            display: flex;
+            align-items: center;
+            height: 60px;
+            padding-left:20px ;
+            padding-right:20px ;
+            border-bottom: 1px solid rgb(53, 53, 221);
+        }
+        ul{
+            flex-grow: 1;
+            list-style-type: none;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 0px 20px;
+            height: 40px;
+        }
+        header li a{
+            text-decoration: none;
+            color: antiquewhite;
+        }
+        header li{
+            padding: 20px;
+            transition: 1s;
+        }
+         header li:hover{
+            text-decoration: overline;
+            transform: translate(0px,-5px);
+            background: linear-gradient(58deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+        }
+        button{
+            width: 100px;
+            height: 30px;
+        }
+        .heading{
+            margin-top: 150px;
+            margin-left: 20px;
+            color: rgb(127, 220, 20);
+        }
+        .heading button{
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Dzinex Technologies</h2>
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">SERVICE</a></li>
+            <li><a href="">CONTACT</a></li>
+        </ul>
+        <button>Log In</button>
+    </header>
+    <div class="heading">
+        <h1>We Are at Ranchi Now!!</h1>
+        <button>Sign Up</button>
+    </div>
+</body>
+</html>
